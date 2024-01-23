@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"../views/Home/components/HomePageGridLayout/index.tsx -> ../MapCard":{"id":"../views/Home/components/HomePageGridLayout/index.tsx -> ../MapCard","files":["static/chunks/src_views_Home_components_MapCard_index_tsx.js"]}}

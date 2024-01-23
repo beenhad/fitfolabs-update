@@ -3,7 +3,7 @@ import { CollapsibleType } from "./types";
 export const faqs: CollapsibleType[] = [
   {
     title: "Cancelations, Changes and Returns",
-    body: `Returns are only accepted with prior written approval from Screenprints.xyz.
+    body: `Returns are only accepted with prior written approval from Fitfo Labs.
     No cancellations will be accepted if order is in process.
     Any costs incurred by us prior to acceptance of cancellation will be invoiced.
     Changes to orders (prior to production) will usually require an extra cost.`,
@@ -14,19 +14,19 @@ export const faqs: CollapsibleType[] = [
   },
   {
     title: "Trademarks",
-    body: `Customer assumes complete responsibility for artwork and warrants that they have the right to use the marks, symbols, or designs depicted in the artwork. We solely rely on the customer’s representation that they are authorized to utilize any copy or marks. The customer holds Screenprints.xyz harmless and will indemnify Screenprints.xyz for any and all claims resulting from printing, embroidery or other embellishments performed for customer by Screenprints.xyz.`,
+    body: `Customer assumes complete responsibility for artwork and warrants that they have the right to use the marks, symbols, or designs depicted in the artwork. We solely rely on the customer’s representation that they are authorized to utilize any copy or marks. The customer holds Fitfo Labs harmless and will indemnify Fitfo Labs for any and all claims resulting from printing, embroidery or other embellishments performed for customer by Fitfo Labs.`,
   },
   {
     title: "Shipping",
-    body: `Title to the goods shall pass to Customer upon delivery to customer or common freight carrier at the shipping point. Screenprints.xyz is not responsible for delays, lost goods or damages caused by the freight carrier but will assist in tracking shipments. Shipping dates are estimated and not guaranteed. If you have a hard deadline or in-hands date, please verify this at the beginning of the order process with your sales representative.`,
+    body: `Title to the goods shall pass to Customer upon delivery to customer or common freight carrier at the shipping point. Fitfo Labs is not responsible for delays, lost goods or damages caused by the freight carrier but will assist in tracking shipments. Shipping dates are estimated and not guaranteed. If you have a hard deadline or in-hands date, please verify this at the beginning of the order process with your sales representative.`,
   },
   {
     title: "Delays",
-    body: `In the event Industry shall be unable or fail at any time to make or supply the goods ordered due to any condition, contingency, delay, failure or cause beyond the control of the Quixotic Manufacturing and whether or not any such contingency is presently occurring, SCREENPRINTS.XYZ SHALL NOT BE LIABLE TO BUYER FOR FAILURE TO SUPPLY DURING THE PERIOD AND TO THE EXTENT OF SUCH DISABILITY INCLUDING SPECIAL OR CONSEQUENTIAL DAMAGES (INCLUDING PROFITS OR PROFITS LOST).`,
+    body: `In the event Industry shall be unable or fail at any time to make or supply the goods ordered due to any condition, contingency, delay, failure or cause beyond the control of the Quixotic Manufacturing and whether or not any such contingency is presently occurring, Fitfo Labs SHALL NOT BE LIABLE TO BUYER FOR FAILURE TO SUPPLY DURING THE PERIOD AND TO THE EXTENT OF SUCH DISABILITY INCLUDING SPECIAL OR CONSEQUENTIAL DAMAGES (INCLUDING PROFITS OR PROFITS LOST).`,
   },
   {
     title: "Limitation of Liability",
-    body: `In no event shall Screenprints.xyz be liable to Customer for any amount greater that the amount paid to Screenprints.xyz to provide goods or services. All transactions are subject to and governed by the laws of the State of Georgia.`,
+    body: `In no event shall Fitfo Labs be liable to Customer for any amount greater that the amount paid to Fitfo Labs to provide goods or services. All transactions are subject to and governed by the laws of the State of Georgia.`,
   },
 ];
 
@@ -74,7 +74,7 @@ export const screenPrintings: CollapsibleType[] = [
   },
   {
     title: "Do you screen print neck labels?",
-    body: "In the event Industry shall be unable or fail at any time to make or supply the goods ordered due to any condition, contingency, delay, failure or cause beyond the control of the Quixotic Manufacturing and whether or not any such contingency is presently occurring, SCREENPRINTS.XYZ SHALL NOT BE LIABLE TO BUYER FOR FAILURE TO SUPPLY DURING THE PERIOD AND TO THE EXTENT OF SUCH DISABILITY INCLUDING SPECIAL OR CONSEQUENTIAL DAMAGES (INCLUDING PROFITS OR PROFITS LOST).",
+    body: "In the event Industry shall be unable or fail at any time to make or supply the goods ordered due to any condition, contingency, delay, failure or cause beyond the control of the Quixotic Manufacturing and whether or not any such contingency is presently occurring, Fitfo Labs SHALL NOT BE LIABLE TO BUYER FOR FAILURE TO SUPPLY DURING THE PERIOD AND TO THE EXTENT OF SUCH DISABILITY INCLUDING SPECIAL OR CONSEQUENTIAL DAMAGES (INCLUDING PROFITS OR PROFITS LOST).",
   },
 ];
 
@@ -156,7 +156,7 @@ export const services: CollapsibleType[] = [
 export const termsAndConditions: CollapsibleType[] = [
   {
     title: "Cancelations, Changes and Returns",
-    body: `Returns are only accepted with prior written approval from Screenprints.xyz.
+    body: `Returns are only accepted with prior written approval from Fitfo Labs.
     No cancellations will be accepted if order is in process.
     Any costs incurred by us prior to acceptance of cancellation will be invoiced.
     Changes to orders (prior to production) will usually require an extra cost.`,
@@ -167,19 +167,19 @@ export const termsAndConditions: CollapsibleType[] = [
   },
   {
     title: "Trademarks",
-    body: "Customer assumes complete responsibility for artwork and warrants that they have the right to use the marks, symbols, or designs depicted in the artwork. We solely rely on the customer’s representation that they are authorized to utilize any copy or marks. The customer holds Screenprints.xyz harmless and will indemnify Screenprints.xyz for any and all claims resulting from printing, embroidery or other embellishments performed for customer by Screenprints.xyz.",
+    body: "Customer assumes complete responsibility for artwork and warrants that they have the right to use the marks, symbols, or designs depicted in the artwork. We solely rely on the customer’s representation that they are authorized to utilize any copy or marks. The customer holds Fitfo Labs harmless and will indemnify Fitfo Labs for any and all claims resulting from printing, embroidery or other embellishments performed for customer by Fitfo Labs.",
   },
   {
     title: "Shipping",
-    body: "Title to the goods shall pass to Customer upon delivery to customer or common freight carrier at the shipping point. Screenprints.xyz is not responsible for delays, lost goods or damages caused by the freight carrier but will assist in tracking shipments. Shipping dates are estimated and not guaranteed. If you have a hard deadline or in-hands date, please verify this at the beginning of the order process with your sales representative.",
+    body: "Title to the goods shall pass to Customer upon delivery to customer or common freight carrier at the shipping point. Fitfo Labs is not responsible for delays, lost goods or damages caused by the freight carrier but will assist in tracking shipments. Shipping dates are estimated and not guaranteed. If you have a hard deadline or in-hands date, please verify this at the beginning of the order process with your sales representative.",
   },
   {
     title: "Delays",
-    body: "In the event Industry shall be unable or fail at any time to make or supply the goods ordered due to any condition, contingency, delay, failure or cause beyond the control of the Quixotic Manufacturing and whether or not any such contingency is presently occurring, SCREENPRINTS.XYZ SHALL NOT BE LIABLE TO BUYER FOR FAILURE TO SUPPLY DURING THE PERIOD AND TO THE EXTENT OF SUCH DISABILITY INCLUDING SPECIAL OR CONSEQUENTIAL DAMAGES (INCLUDING PROFITS OR PROFITS LOST).",
+    body: "In the event Industry shall be unable or fail at any time to make or supply the goods ordered due to any condition, contingency, delay, failure or cause beyond the control of the Quixotic Manufacturing and whether or not any such contingency is presently occurring, Fitfo Labs SHALL NOT BE LIABLE TO BUYER FOR FAILURE TO SUPPLY DURING THE PERIOD AND TO THE EXTENT OF SUCH DISABILITY INCLUDING SPECIAL OR CONSEQUENTIAL DAMAGES (INCLUDING PROFITS OR PROFITS LOST).",
   },
   {
     title: "Limitation of Liability",
-    body: "In no event shall Screenprints.xyz be liable to Customer for any amount greater that the amount paid to Screenprints.xyz to provide goods or services. All transactions are subject to and governed by the laws of the State of Georgia.",
+    body: "In no event shall Fitfo Labs be liable to Customer for any amount greater that the amount paid to Fitfo Labs to provide goods or services. All transactions are subject to and governed by the laws of the State of Georgia.",
   },
 ];
 

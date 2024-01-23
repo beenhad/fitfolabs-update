@@ -56,7 +56,7 @@ const cards = {
   ),
   g: (
     <TextCard
-      button={{ text: "Read more", url: "https://screenprints.xyz/faq" }}
+      button={{ text: "Read more", url: "/faq" }}
       title="Have a question?"
       description="Check out answers to our most common questions, orders specifications and art requirements."
     />
@@ -80,7 +80,7 @@ const cards = {
     <TextCard
       button={{
         text: "Get started",
-        url: "https://screenprints.xyz/get-a-quote",
+        url: "/get-a-quote",
       }}
       title="Get a quote"
       description="Complete our order form and one of our account managers will reach out to you to confirm your total and gather remaining details."

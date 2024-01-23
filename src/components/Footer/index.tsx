@@ -27,7 +27,7 @@ const Footer = () => {
       >
         Terms of Service
       </Link>
-      <p className="opacity-50">© 2023 GrayShapes, Inc.</p>
+      <p className="opacity-50">© 2024 Fitfo Labs, LLC.</p>
 
       {/* <div className="flex flex-wrap justify-center gap-5 __text_sm">
         {pages.map((page, i) => (
