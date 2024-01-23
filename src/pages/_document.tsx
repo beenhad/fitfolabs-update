@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Screenprints.xyz</title>
+        <title>Fitfo Labs</title>
       </Head>
       <body>
         <Main />
