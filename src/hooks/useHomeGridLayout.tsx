@@ -10,8 +10,8 @@ import { useWindowSize } from "react-use";
 
 const tabs: TabType[] = [
   {
-    tabKey: "All",
-    name: "all",
+    tabKey: "Home",
+    name: "home",
     layout: {
       lg: [
         { i: "a", x: 0, y: 0, w: 2, h: 1 },

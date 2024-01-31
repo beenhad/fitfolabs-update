@@ -6,10 +6,10 @@ import dynamic from "next/dynamic";
 import { useEffect, useRef } from "react";
 import { Responsive, WidthProvider } from "react-grid-layout";
 import BlankCatalog from "../BlankCatalog";
+import InstagramCard from "../InstagramCard";
 import LockedSwitchCard from "../LockedSwitchCard";
 import ProjectCard from "../ProjectCard";
 import TextCard from "../TextCard";
-import TwitterCard from "../TwitterCard";
 
 const MapCard = dynamic(() => import("../MapCard"), { ssr: false });
 
@@ -33,13 +33,13 @@ const cards = {
         alt: "tShirt",
       }}
       link={{
-        text: "T-Shirt",
+        text: "T-Shirts",
         url: "t-shirts",
       }}
     />
   ),
   d: <BlankCatalog />,
-  e: <TwitterCard />,
+  e: <InstagramCard />,
   f: (
     <ProjectCard
       img={{
@@ -49,14 +49,14 @@ const cards = {
         alt: "hoodie",
       }}
       link={{
-        text: "Hoodie",
+        text: "Hoodies",
         url: "hoodies",
       }}
     />
   ),
   g: (
     <TextCard
-      button={{ text: "Read more", url: "/faq" }}
+      button={{ text: "View FAQ", url: "/faq" }}
       title="Have a question?"
       description="Check out answers to our most common questions, orders specifications and art requirements."
     />
@@ -71,7 +71,7 @@ const cards = {
         alt: "hat",
       }}
       link={{
-        text: "Hat",
+        text: "Hats",
         url: "hats",
       }}
     />
@@ -111,7 +111,7 @@ const HomePageGridLayout = () => {
         ref={ff}
         className={cx(
           "container px-0 home_page_grid_layout disable_transition",
-          !rowHeight && "opacity-0 pointer-events-none",
+          !rowHeight && "opacity-0 pointer-events-none"
         )}
         layouts={activeTab.layout}
         breakpoints={{ lg: 1200, md: 799, xxs: 0 }}
@@ -128,7 +128,7 @@ const HomePageGridLayout = () => {
               "relative",
               activeTab.activeCards?.length > 0 &&
                 !activeTab.activeCards?.includes(item) &&
-                "opacity-25 pointer-events-none",
+                "opacity-25 pointer-events-none"
             )}
           >
             {/* <div className="absolute z-50 p-2 bg-red-500 top-4 left-4">

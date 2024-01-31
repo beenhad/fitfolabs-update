@@ -1,5 +1,10 @@
 import CollapsibleRenderer from "@/components/CollapsibleRenderer";
-import { embroideries, faqs, screenPrintings } from "@/config/constants";
+import {
+  artRequirements,
+  embroideries,
+  faqs,
+  screenPrintings,
+} from "@/config/constants";
 
 const FaqSection = () => {
   return (
@@ -17,6 +22,13 @@ const FaqSection = () => {
 
         <div className="mt-[30px]">
           <CollapsibleRenderer collapsibles={screenPrintings} />
+        </div>
+      </div>
+      <div>
+        <h1 className="__title_xl">Art Requirements</h1>
+
+        <div className="mt-[30px]">
+          <CollapsibleRenderer collapsibles={artRequirements} />
         </div>
       </div>
       <div>

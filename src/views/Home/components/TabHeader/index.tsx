@@ -10,7 +10,7 @@ const TabHeader = () => {
     (index: number | undefined) => {
       typeof index === "number" && setActiveTabIndex(index);
     },
-    [setActiveTabIndex],
+    [setActiveTabIndex]
   );
 
   return (

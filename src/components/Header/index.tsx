@@ -1,13 +1,29 @@
+import ContactIcon from "@/components/Icons/ContactIcon";
 import { cx } from "@/utils";
 import TabHeader from "@/views/Home/components/TabHeader";
-import Link from "next/link";
+import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import { useWindowScroll, useWindowSize } from "react-use";
 import SiteLogo from "../SiteLogo";
 
 const Header = () => {
   const router = useRouter();
   const [showHeader, setShowHeader] = useState(router.pathname === "/");
+  const [isScrollEnd, setIsScrollEnd] = useState(false);
+
+  const windowScroll = useWindowScroll();
+  const windowSize = useWindowSize();
+
+  console.log(windowScroll.y);
+
+  useEffect(() => {
+    if (windowSize.height < windowScroll.y + 10) {
+      setIsScrollEnd(true);
+    }
+
+    return () => {};
+  }, [windowScroll.y, windowSize]);
 
   useEffect(() => {
     let timeout1: any;
@@ -35,7 +51,7 @@ const Header = () => {
       // animate={{ opacity: 1 }}
       // transition={{ duration: 0.8, ease: "easeOut", delay: 0.5 }}
       className={cx(
-        "animate_fade_up pb-2 md:pb-12 pt-12 px-[3.5vw] flex flex-col md:flex-row md:justify-between gap-y-5 items-center relative",
+        "animate_fade_up pb-2 md:pb-12 pt-12 px-[3.5vw] flex flex-col md:flex-row md:justify-between gap-y-5 items-center relative"
       )}
     >
       {/** Logo --Start-- */}
@@ -48,9 +64,23 @@ const Header = () => {
         <TabHeader />
       </div>
 
-      <Link className="__text_sm hidden md:block" href={"https://cal.com/fitfo/15min"}>
+      {/* <Link className="__text_sm hidden md:block" href={"https://cal.com/fitfo/15min"}>
         Contact
-      </Link>
+      </Link> */}
+
+      <motion.div
+        className={cx("fixed bottom-5 right-5 z-[100]")}
+        initial={false}
+        animate={{ opacity: isScrollEnd ? 1 : 0 }}
+      >
+        <a
+          href="https://cal.com/fitfo/15min"
+          target="_blank"
+          className="h-14 aspect-square shrink-0 shadow-card-inset bg-dark-100 duration-200 rounded-full flex items-center justify-center"
+        >
+          <ContactIcon />
+        </a>
+      </motion.div>
     </div>
   );
 };

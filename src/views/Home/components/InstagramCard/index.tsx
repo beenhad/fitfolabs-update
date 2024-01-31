@@ -1,14 +1,13 @@
 import ArrowTopRight from "@/components/Icons/ArrowTopRight";
-import LockedSwitchIcon from "@/components/Icons/SwitchLockIcon";
+import CardInstagramIcon from "@/components/Icons/CardInstagramIcon";
 
-const LockedSwitchCard = () => {
+const InstagramCard = () => {
   return (
     <div className="__card flex flex-col relative justify-center items-center p-[14px] gap-1 text-center">
-      <h2 className="__title_lg">Webstore</h2>
-      <p className="__text_sm">Open</p>
+      <CardInstagramIcon />
 
       <a
-        href="store.fitfolabs.com"
+        href="https://instagram.com/fitfolabs"
         target="_blank"
         className="__btn_rounded absolute bottom-[14px] left-[14px]"
       >
@@ -18,4 +17,4 @@ const LockedSwitchCard = () => {
   );
 };
 
-export default LockedSwitchCard;
+export default InstagramCard;
