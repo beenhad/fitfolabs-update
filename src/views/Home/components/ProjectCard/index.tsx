@@ -7,17 +7,22 @@ import Link from "next/link";
 
 type ProjectProps = {
   img: ImageProps;
+  hoverImg: ImageProps;
   link: {
     text: string;
     url: string;
   };
 };
-const Project = ({ img, link }: ProjectProps) => {
+const Project = ({ img, link, hoverImg }: ProjectProps) => {
   const { isHovered, handlers } = useIsHovered();
   return (
     <div {...handlers} className="__card p-[2px] relative group">
-      <div className="rounded-[30.5px] h-full overflow-hidden flex items-center justify-end">
-        <Image {...img} className="mix-blend-luminosity" />
+      <div className="rounded-[30.5px] h-full overflow-hidden flex items-center justify-end relative">
+        <Image {...img} className="group-hover:opacity-0 duration-200" />
+        <Image
+          {...hoverImg}
+          className="absolute inset-0 h-full w-full duration-200 opacity-0 group-hover:opacity-100"
+        />
       </div>
 
       <motion.div

@@ -27,9 +27,15 @@ const cards = {
   c: (
     <ProjectCard
       img={{
-        src: "/img/t-shirt.png",
-        width: 339,
-        height: 697,
+        src: "/img/t-shirts.png",
+        width: 1215,
+        height: 2500,
+        alt: "tShirt",
+      }}
+      hoverImg={{
+        src: "/img/t-shirts-reveal.png",
+        width: 1215,
+        height: 2500,
         alt: "tShirt",
       }}
       link={{
@@ -43,9 +49,15 @@ const cards = {
   f: (
     <ProjectCard
       img={{
-        src: "/img/hoodie.png",
-        width: 280,
-        height: 576,
+        src: "/img/hoodies.png",
+        width: 1215,
+        height: 2500,
+        alt: "hoodie",
+      }}
+      hoverImg={{
+        src: "/img/hoodies-reveal.png",
+        width: 1215,
+        height: 2500,
         alt: "hoodie",
       }}
       link={{
@@ -65,9 +77,15 @@ const cards = {
   i: (
     <ProjectCard
       img={{
-        src: "/img/hat.png",
-        width: 539,
-        height: 280,
+        src: "/img/hats.png",
+        width: 2500,
+        height: 1299,
+        alt: "hat",
+      }}
+      hoverImg={{
+        src: "/img/hats-reveal.png",
+        width: 2500,
+        height: 1299,
         alt: "hat",
       }}
       link={{

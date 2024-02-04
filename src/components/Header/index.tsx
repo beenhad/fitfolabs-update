@@ -4,7 +4,6 @@ import TabHeader from "@/views/Home/components/TabHeader";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { useWindowScroll, useWindowSize } from "react-use";
 import SiteLogo from "../SiteLogo";
 
 const Header = () => {
@@ -12,18 +11,21 @@ const Header = () => {
   const [showHeader, setShowHeader] = useState(router.pathname === "/");
   const [isScrollEnd, setIsScrollEnd] = useState(false);
 
-  const windowScroll = useWindowScroll();
-  const windowSize = useWindowSize();
-
-  console.log(windowScroll.y);
-
   useEffect(() => {
-    if (windowSize.height < windowScroll.y + 10) {
-      setIsScrollEnd(true);
-    }
+    const handleScroll = () => {
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      const scrollHeight = document.documentElement.scrollHeight;
+      const clientHeight = document.documentElement.clientHeight;
 
-    return () => {};
-  }, [windowScroll.y, windowSize]);
+      if (scrollTop + clientHeight >= scrollHeight - 5) {
+        setIsScrollEnd(true);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   useEffect(() => {
     let timeout1: any;
@@ -72,6 +74,7 @@ const Header = () => {
         className={cx("fixed bottom-5 right-5 z-[100]")}
         initial={false}
         animate={{ opacity: isScrollEnd ? 1 : 0 }}
+        whileHover={{ scale: 1.15 }}
       >
         <a
           href="https://cal.com/fitfo/15min"
