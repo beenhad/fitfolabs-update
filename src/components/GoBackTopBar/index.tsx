@@ -1,3 +1,4 @@
+import usePreviousRoute from "@/hooks/usePreviousRoute";
 import { cx } from "@/utils";
 import { useRouter } from "next/router";
 import { ReactNode, useRef, useState } from "react";
@@ -9,13 +10,20 @@ const GoBackTopBar = ({ children }: { children: ReactNode }) => {
   const { width = 0 } = useWindowSize();
   const [isHovered, setIsHovered] = useState(false);
 
+  const previousRoute = usePreviousRoute();
+
   const goBackHandler = () => {
     wrapperRef.current.style.transform = "translateY(40px)";
     wrapperRef.current.style.opacity = "0";
     setTimeout(() => {
-      router.back();
+      if (previousRoute) {
+        router.back();
+      } else {
+        router.push("/");
+      }
     }, 450);
   };
+
   return (
     <>
       <div ref={wrapperRef} className="duration-[650ms]">
@@ -32,7 +40,7 @@ const GoBackTopBar = ({ children }: { children: ReactNode }) => {
         <div
           className={cx(
             isHovered && width > 1201 && "translate-y-6",
-            "duration-[650ms] ease-out",
+            "duration-[650ms] ease-out"
           )}
         >
           {children}
