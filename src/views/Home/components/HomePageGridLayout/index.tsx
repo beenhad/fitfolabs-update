@@ -80,13 +80,13 @@ const cards = {
         src: "/img/hats.png",
         width: 2500,
         height: 1299,
-        alt: "hat",
+        alt: "hats",
       }}
       hoverImg={{
         src: "/img/hats-reveal.png",
         width: 2500,
         height: 1299,
-        alt: "hat",
+        alt: "hats-reveal",
       }}
       link={{
         text: "Hats",

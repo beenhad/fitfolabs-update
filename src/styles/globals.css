@@ -30,7 +30,7 @@ body {
     @apply w-full h-full p-6 overflow-hidden select-none xs:py-10 shadow-card-inset bg-dark-100 rounded-32px xs:px-11 cursor-grab;
   }
   .__btn_rounded {
-    @apply flex items-center justify-center duration-200 rounded-full outline-none h-9 w-9 shadow-card hover:shadow-card-hover bg-dark-100 focus-visible:shadow-card-hover __text_sm;
+    @apply flex items-center justify-center duration-200 rounded-full outline-none h-9 shadow-card hover:shadow-card-hover bg-dark-100 focus-visible:shadow-card-hover __text_sm;
   }
   .__btn {
     @apply __btn_rounded h-9 w-auto px-[13px] gap-[7px];
