@@ -86,7 +86,7 @@ const MapCard = () => {
         </div>
         <button
           className={cx(
-            "__btn_rounded",
+            "__btn_rounded aspect-square shrink-0",
             zoom === minZoom && "opacity-0 scale-50 delay-[1100ms]"
           )}
           disabled={zoom === minZoom}
@@ -96,7 +96,7 @@ const MapCard = () => {
         </button>
         <button
           className={cx(
-            "__btn_rounded",
+            "__btn_rounded aspect-square shrink-0",
             zoom === maxZoom && "opacity-0 scale-50 delay-[1100ms]"
           )}
           disabled={zoom === maxZoom}

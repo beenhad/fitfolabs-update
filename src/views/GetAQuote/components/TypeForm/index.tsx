@@ -18,6 +18,8 @@ const TypeForm = () => {
         data-tf-iframe-props="title=Fitfo Labs"
         data-tf-transitive-search-params
         data-tf-medium="snippet"
+        data-tf-inline-on-mobile
+        data-tf-hidden="utm_source={},utm_medium={},utm_campaign={}"
         className="w-full lg:w-[85%] mx-auto h-[300px] lg:h-[500px]"
       ></div>
     </>

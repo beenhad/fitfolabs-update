@@ -9,7 +9,7 @@ const BlankCatalog = () => {
       <a
         href="https://fitfo.notion.site/2024-Catalog-1bb40c4465964ae184a00b38bf3a6ae1?pvs=4"
         target="_blank"
-        className="__btn_rounded absolute bottom-[14px] left-[14px]"
+        className="__btn_rounded aspect-square shrink-0 absolute bottom-[14px] left-[14px]"
       >
         <ArrowTopRight />
       </a>

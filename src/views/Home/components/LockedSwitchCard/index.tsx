@@ -10,7 +10,7 @@ const LockedSwitchCard = () => {
       <a
         href="https://store.fitfolabs.com/"
         target="_blank"
-        className="__btn_rounded absolute bottom-[14px] left-[14px]"
+        className="__btn_rounded aspect-square shrink-0 absolute bottom-[14px] left-[14px]"
       >
         <ArrowTopRight />
       </a>

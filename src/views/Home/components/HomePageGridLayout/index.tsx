@@ -110,13 +110,6 @@ const HomePageGridLayout = () => {
   const { activeTab, rowHeight } = useHomeGridLayout();
   const ff = useRef<any>();
 
-  useEffect(() => {
-    // console.log(ff.current.updater.enqueueForceUpdate());
-    console.log(ff.current);
-
-    return () => {};
-  }, []);
-
   useEnableGridLayoutTransition({
     wrapperClass: ".home_page_grid_layout",
   });
