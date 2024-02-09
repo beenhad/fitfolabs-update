@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import SiteLogo from "../SiteLogo";
+import Link from "next/link";
 
 const Header = () => {
   const router = useRouter();
@@ -66,12 +67,15 @@ const Header = () => {
         <TabHeader />
       </div>
 
-      {/* <Link className="__text_sm hidden md:block" href={"https://cal.com/fitfo/15min"}>
+      <Link
+        className="__text_sm hidden md:block"
+        href={"https://cal.com/fitfo/15min"}
+      >
         Contact
-      </Link> */}
+      </Link>
 
       <motion.div
-        className={cx("fixed bottom-5 right-5 z-[100]")}
+        className={cx("fixed bottom-5 right-5 z-[100] lg:hidden")}
         initial={false}
         animate={{ opacity: isScrollEnd ? 1 : 0 }}
         whileHover={{ scale: 1.15 }}
