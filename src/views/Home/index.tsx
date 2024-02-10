@@ -9,6 +9,7 @@ const Home = () => {
       <HomeGridLayoutProvider>
         <Header />
         <AnimateFromBottom>
+          a
           <HomePageGridLayout />
         </AnimateFromBottom>
       </HomeGridLayoutProvider>

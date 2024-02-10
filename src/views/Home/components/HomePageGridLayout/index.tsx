@@ -3,7 +3,7 @@ import useHomeGridLayout from "@/hooks/useHomeGridLayout";
 import useIsLayoutDraggable from "@/hooks/useIsLayoutDraggable";
 import { cx } from "@/utils";
 import dynamic from "next/dynamic";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { Responsive, WidthProvider } from "react-grid-layout";
 import BlankCatalog from "../BlankCatalog";
 import InstagramCard from "../InstagramCard";
@@ -121,7 +121,7 @@ const HomePageGridLayout = () => {
       <ResponsiveGridLayout
         ref={ff}
         className={cx(
-          "container px-0 home_page_grid_layout disable_transition",
+          "container !px-0 home_page_grid_layout disable_transition",
           !rowHeight && "opacity-0 pointer-events-none"
         )}
         layouts={activeTab.layout}
@@ -129,7 +129,7 @@ const HomePageGridLayout = () => {
         cols={{ lg: 4, md: 4, xxs: 2 }}
         isBounded
         rowHeight={rowHeight}
-        margin={[16, 16]}
+        // margin={[16, 16]}
         isDraggable={isDraggable}
       >
         {["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"].map((item) => (
