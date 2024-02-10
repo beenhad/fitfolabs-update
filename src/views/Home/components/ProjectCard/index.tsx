@@ -18,7 +18,7 @@ const Project = ({ img, link, hoverImg }: ProjectProps) => {
   const { isHovered, handlers } = useIsHovered();
   return (
     <div {...handlers} className="__card p-[2px] relative group">
-      <div className="rounded-[30.5px] h-full overflow-hidden relative">
+      {/* <div className="rounded-[30.5px] h-full overflow-hidden relative">
         <Image
           {...img}
           className={cx(
@@ -58,7 +58,7 @@ const Project = ({ img, link, hoverImg }: ProjectProps) => {
             <ArrowTopRight />
           </div>
         </Link>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };
