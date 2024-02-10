@@ -1,7 +1,4 @@
-// import Home from "@/views/Home";
-import dynamic from "next/dynamic";
-
-const Home = dynamic(import("@/views/Home"), { ssr: false });
+import Home from "@/views/Home";
 
 const HomePage = () => {
   return (

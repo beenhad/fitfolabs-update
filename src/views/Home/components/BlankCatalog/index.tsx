@@ -3,7 +3,7 @@ import ArrowTopRight from "@/components/Icons/ArrowTopRight";
 const BlankCatalog = () => {
   return (
     <div className="__card flex flex-col relative justify-center items-center p-[14px] gap-1 text-center">
-      {/* <h2 className="__title_lg">Blank Catalog</h2>
+      <h2 className="__title_lg">Blank Catalog</h2>
       <p className="__text_sm">Updated for 2024</p>
 
       <a
@@ -12,7 +12,7 @@ const BlankCatalog = () => {
         className="__btn_rounded aspect-square shrink-0 absolute bottom-[14px] left-[14px]"
       >
         <ArrowTopRight />
-      </a> */}
+      </a>
     </div>
   );
 };
