@@ -7,7 +7,7 @@ const Hoodie = () => {
     <GoBackTopBar>
       <div className="pt-[50px] lg:pt-[60px]">
         <div className="container lg:px-[60px] mb-[55px] lg:mb-[64px]">
-          <h1 className="__title_xl">Hoodie</h1>
+          <h1 className="__title_xl">Fleece</h1>
           <p className="text-lg leading-[24px] lg:text-[26px] lg:leading-[40px] tracking-[0.25px] mt-2.5 mb-5 max-w-[494px]">
             This is where the project text will go. There should be two-three
             lines total for this section
