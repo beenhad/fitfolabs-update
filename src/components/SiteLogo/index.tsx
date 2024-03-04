@@ -10,9 +10,9 @@ const SiteLogo = () => {
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
 			>
-				<g clip-path="url(#clip0_486_8205)">
-					<g clip-path="url(#clip1_486_8205)">
-						<g clip-path="url(#clip2_486_8205)">
+				<g clipPath="url(#clip0_486_8205)">
+					<g clipPath="url(#clip1_486_8205)">
+						<g clipPath="url(#clip2_486_8205)">
 							<path
 								d="M33.9102 18.3996H37.1102V13.3996H42.7102V10.7996H37.1102V8.19961H43.1102V5.59961H33.9102V18.3996Z"
 								fill="#F0F2F8"
