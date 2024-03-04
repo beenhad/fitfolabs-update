@@ -9,8 +9,8 @@ module.exports = {
 			colors: {
 				dark: {
 					DEFAULT: "#141317",
-					100: "#29292C",
-					700: "#21262D",
+					100: "#1D1C20",
+					700: "#29292C",
 				},
 				"soft-gray": "#F0F2F8",
 			},

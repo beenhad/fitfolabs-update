@@ -17,7 +17,7 @@ type ProjectProps = {
 const Project = ({ img, link, hoverImg }: ProjectProps) => {
   const { isHovered, handlers } = useIsHovered();
   return (
-    <div {...handlers} className="__card p-[2px] relative group">
+    <div {...handlers} className="__card p-[1px] relative group">
       <div className="rounded-[30.5px] h-full overflow-hidden relative">
         <Image
           {...img}
