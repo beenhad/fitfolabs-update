@@ -62,7 +62,7 @@ const cards = {
       }}
       link={{
         text: "Hoodies",
-        url: "hoodies",
+        url: "fleece",
       }}
     />
   ),
@@ -90,7 +90,7 @@ const cards = {
       }}
       link={{
         text: "Hats",
-        url: "hats",
+        url: "accessories",
       }}
     />
   ),
