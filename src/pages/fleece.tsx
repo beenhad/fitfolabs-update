@@ -1,14 +1,14 @@
 import AnimateFromBottom from "@/components/AnimateFromBottom";
-import Hoodie from "@/views/Hoodie";
+import Fleece from "@/views/Fleece";
 
-const HoodiesPage = () => {
-  return (
-    <>
-      <AnimateFromBottom>
-        <Hoodie />
-      </AnimateFromBottom>
-    </>
-  );
+const FleecePage = () => {
+	return (
+		<>
+			<AnimateFromBottom>
+				<Fleece />
+			</AnimateFromBottom>
+		</>
+	);
 };
 
-export default HoodiesPage;
+export default FleecePage;

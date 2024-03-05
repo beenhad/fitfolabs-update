@@ -1,14 +1,14 @@
 import AnimateFromBottom from "@/components/AnimateFromBottom";
-import Hat from "@/views/Hat";
+import Accessories from "@/views/Accessories";
 
-const HatsPage = () => {
-  return (
-    <>
-      <AnimateFromBottom>
-        <Hat />
-      </AnimateFromBottom>
-    </>
-  );
+const AccessoriesPage = () => {
+	return (
+		<>
+			<AnimateFromBottom>
+				<Accessories />
+			</AnimateFromBottom>
+		</>
+	);
 };
 
-export default HatsPage;
+export default AccessoriesPage;

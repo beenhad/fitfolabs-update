@@ -2,7 +2,7 @@ import GoBackTopBar from "@/components/GoBackTopBar";
 import ArrowTopRight from "@/components/Icons/ArrowTopRight";
 import ProjectGridLayout from "./components/ProjectGridLayout";
 
-const Hat = () => {
+const Accessories = () => {
 	return (
 		<GoBackTopBar>
 			<div className="pt-[50px] lg:pt-[60px]">
@@ -29,4 +29,4 @@ const Hat = () => {
 	);
 };
 
-export default Hat;
+export default Accessories;
