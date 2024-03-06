@@ -16,7 +16,7 @@ const MapComponent = ({ zoom }: { zoom: [number] }) => {
   useEffect(() => {
     const map = new mapboxgl.Map({
       container: "map",
-      style: "mapbox://styles/beenhad/clf1fk7i4008w01nsvtwxvo6e",
+      style: "mapbox://styles/beenhad/cltf9vx0g006a01qkccu6cfcc",
       center: [33.812538, -84.358459].reverse() as any,
       zoom: zoom[0],
       fadeDuration: 100,
