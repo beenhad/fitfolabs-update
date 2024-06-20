@@ -1,9 +1,10 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const SiteLogo = () => {
 	return (
 		<Link href={"/"}>
-			<svg
+			{/* <svg
 				width="137"
 				height="24"
 				viewBox="0 0 137 24"
@@ -125,7 +126,8 @@ const SiteLogo = () => {
 						/>
 					</clipPath>
 				</defs>
-			</svg>
+			</svg> */}
+			<Image src="/logo.svg" alt="logo" width="137" height="24" />
 		</Link>
 	);
 };

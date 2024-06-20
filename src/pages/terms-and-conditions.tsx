@@ -1,14 +1,22 @@
 import AnimateFromBottom from "@/components/AnimateFromBottom";
+import MetaTags from "@/components/Head";
 import TermsAndConditions from "@/views/TermsAndConditions";
 
 const TermsAndConditionsPage = () => {
-  return (
-    <>
-      <AnimateFromBottom>
-        <TermsAndConditions />
-      </AnimateFromBottom>
-    </>
-  );
+	return (
+		<>
+			<MetaTags
+				title="Terms & Conditions"
+				description=""
+				ogImage=""
+				ogTitle=""
+				ogDescription=""
+			/>
+			<AnimateFromBottom>
+				<TermsAndConditions />
+			</AnimateFromBottom>
+		</>
+	);
 };
 
 export default TermsAndConditionsPage;
