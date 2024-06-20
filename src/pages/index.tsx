@@ -1,4 +1,5 @@
 import MetaTags from "@/components/Head";
+import { getAbsoluteUrl } from "@/utils";
 import Home from "@/views/Home";
 
 const HomePage = () => {
@@ -7,7 +8,7 @@ const HomePage = () => {
 			<MetaTags
 				title="Fitfo Labs"
 				description=""
-				ogImage=""
+				ogImage={getAbsoluteUrl("/img/hats-reveal.png")} // put image path getAbsoluteUrl function
 				ogTitle=""
 				ogDescription=""
 			/>
