@@ -8,7 +8,7 @@ const HomePage = () => {
 			<MetaTags
 				title="Fitfo Labs"
 				description=""
-				ogImage={getAbsoluteUrl("/img/hats-reveal.png")} // put image path getAbsoluteUrl function
+				ogImage="" // put image path getAbsoluteUrl function
 				ogTitle=""
 				ogDescription=""
 			/>
