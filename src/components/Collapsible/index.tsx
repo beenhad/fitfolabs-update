@@ -25,7 +25,7 @@ const Collapsible = ({ title, body, isActive, onToggle }: CollapsibleProps) => {
             transition={{ duration: 0.5 }}
             className="overflow-hidden"
           >
-            <p className="__text_base mt-9  mb-[74px]">{body}</p>
+            <div className="__text_base mt-9  mb-[74px]">{body}</div>
           </motion.div>
         )}
       </AnimatePresence>

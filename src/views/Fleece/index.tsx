@@ -9,17 +9,25 @@ const Fleece = () => {
 				<div className="container lg:px-[60px] mb-[55px] lg:mb-[64px]">
 					<h1 className="__title_xl">Fleece</h1>
 					<p className="text-lg leading-[24px] lg:text-[26px] lg:leading-[40px] tracking-[0.25px] mt-2.5 mb-5 max-w-[494px]">
-						This is where the project text will go. There should be two-three
-						lines total for this section
+					Craft Your Comfort. Custom hoodies, tailored and printed to perfection.
 					</p>
 
 					<div className="flex flex-wrap gap-3.5">
 						<button className="__btn md:px-[18px]">
-							Screen printing <ArrowTopRight />
-						</button>
-						<button className="__btn md:px-[18px]">
-							Direct to Garment <ArrowTopRight />
-						</button>
+             				 Plastisol <ArrowTopRight />
+            			</button>
+           				<button className="__btn md:px-[18px]">
+              				Water Based <ArrowTopRight />
+            			</button>
+            			<button className="__btn md:px-[18px]">
+            				4 Color Process <ArrowTopRight />
+            			</button>
+            			<button className="__btn md:px-[18px]">
+            				Jumbo Print <ArrowTopRight />
+            			</button>
+            			<button className="__btn md:px-[18px]">
+            				Specialty Inks <ArrowTopRight />
+            			</button>
 					</div>
 				</div>
 

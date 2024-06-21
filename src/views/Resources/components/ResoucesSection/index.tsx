@@ -18,14 +18,6 @@ const ResourcesSection = () => {
 					<CollapsibleRenderer defaultActiveIndex={0} collapsibles={resources} />
 				</div>
 			</div>
-
-			<div>
-				<h2 className="__title_xl">Templates</h2>
-
-				<div className="mt-[30px]">
-					<CollapsibleRenderer collapsibles={templates} />
-				</div>
-			</div>
 		</div>
 	);
 };
