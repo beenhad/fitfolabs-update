@@ -171,7 +171,7 @@ const ProjectGridLayout = () => {
 				margin={[16, 16]}
 			>
 				{["a", "b", "c", "d", "e", "f", "g", "h", "i"].map((item) => (
-					<div key={item} className="__card overflow-hidden p-0.5">
+					<div key={item} className="__card overflow-hidden p-[1px]">
 						{/* <div className="absolute z-50 p-2 bg-red-500 top-4 left-4">
               {item}
             </div> */}
