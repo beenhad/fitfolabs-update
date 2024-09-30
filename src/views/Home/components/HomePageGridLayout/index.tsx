@@ -5,9 +5,9 @@ import { cx } from "@/utils";
 import dynamic from "next/dynamic";
 import { useRef } from "react";
 import { Responsive, WidthProvider } from "react-grid-layout";
-import BlankCatalog from "../BlankCatalog";
+import FMGCard from "../BlankCatalog";
 import InstagramCard from "../InstagramCard";
-import LockedSwitchCard from "../LockedSwitchCard";
+import StoreCard from "../LockedSwitchCard";
 import ProjectCard from "../ProjectCard";
 import TextCard from "../TextCard";
 
@@ -18,12 +18,12 @@ const ResponsiveGridLayout = WidthProvider(Responsive);
 const cards = {
 	a: (
 		<TextCard
-			button={{ text: "Our services", url: "/services" }}
-			title="Merchandise and apparel printing"
-			description="We simplify merchandise creation and deliver premium apparel items that resonate with clients."
+			button={{ text: "Book Now", url: "/services" }}
+			title="Creative Strategy Marketing"
+			description="What we are known for - Our Signature 90 minute creative consultation."
 		/>
 	),
-	b: <MapCard />,
+	b:<FMGCard />,
 	c: (
 		<ProjectCard
 			img={{
@@ -39,13 +39,13 @@ const cards = {
 				alt: "tShirt",
 			}}
 			link={{
-				text: "T-Shirts",
-				url: "t-shirts",
+				text: "Get Started",
+				url: "/get-a-quote",
 			}}
 		/>
 	),
-	d: <BlankCatalog />,
-	e: <InstagramCard />,
+	d: <StoreCard />,
+	e:  <MapCard /> ,
 	f: (
 		<ProjectCard
 			img={{
@@ -61,19 +61,19 @@ const cards = {
 				alt: "hoodie",
 			}}
 			link={{
-				text: "Fleece",
-				url: "fleece",
+				text: "Screenprinting",
+				url: "/get-a-quote",
 			}}
 		/>
 	),
 	g: (
 		<TextCard
-			button={{ text: "View FAQ", url: "/faq" }}
-			title="Have a question?"
-			description="Check out answers to our most common questions, orders specifications and art requirements."
+			button={{ text: "Get Started", url: "/get-a-quote" }}
+			title="Event Space"
+			description=""
 		/>
 	),
-	h: <LockedSwitchCard />,
+	h: <InstagramCard />,
 	i: (
 		<ProjectCard
 			img={{
@@ -96,13 +96,10 @@ const cards = {
 	),
 	j: (
 		<TextCard
-			button={{
-				text: "Get started",
-				url: "/get-a-quote",
-			}}
-			title="Get a quote"
-			description="Complete our order form and one of our account managers will reach out to you to confirm your total and gather remaining details."
-		/>
+		button={{ text: "View FAQ", url: "/faq" }}
+		title="Have a question?"
+		description="Check out answers to our most common questions, orders specifications and art requirements."
+	/>
 	),
 };
 
