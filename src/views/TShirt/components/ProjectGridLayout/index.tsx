@@ -2,6 +2,7 @@
 import useEnableGridLayoutTransition from "@/hooks/useEnableGridLayoutTransition";
 import useIsLayoutDraggable from "@/hooks/useIsLayoutDraggable";
 import { cx } from "@/utils";
+import ProjectCard from "@/views/Home/components/ProjectCard";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Responsive, WidthProvider } from "react-grid-layout";
@@ -44,6 +45,7 @@ const cards = {
 		</div>
 	),
 	d: (
+				
 		<div className="rounded-[30.5px] h-full overflow-hidden relative">
 			<Image
 				src="/img/hats.png"
@@ -55,15 +57,25 @@ const cards = {
 		</div>
 	),
 	e: (
-		<div className="rounded-[30.5px] h-full overflow-hidden relative">
-			<Image
-				src="/img/hats.png"
-				className="group-hover:opacity-0 absolute inset-0 h-full w-full object-cover"
-				alt="hats"
-				width={2500}
-				height={1299}
-			/>
-		</div>
+		<ProjectCard
+			img={{
+				src: "/img/t-shirts.png",
+				width: 2500,
+				height: 1299,
+				alt: "tShirt",
+			}}
+			hoverImg={{
+				src: "/img/t-shirts-reveal.png",
+				width: 2500,
+				height: 1299,
+				alt: "tShirt",
+			}}
+			link={{
+				text: "Get Started",
+				url: "/get-a-quote",
+			}}
+		/>
+		
 	),
 	f: (
 		<div className="rounded-[30.5px] h-full overflow-hidden relative">

@@ -62,7 +62,7 @@ const cards = {
 			}}
 			link={{
 				text: "Screenprinting",
-				url: "/get-a-quote",
+				url: "/t-shirts",
 			}}
 		/>
 	),

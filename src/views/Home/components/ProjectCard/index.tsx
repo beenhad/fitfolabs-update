@@ -14,7 +14,7 @@ type ProjectProps = {
     url: string;
   };
 };
-const Project = ({ img, link, hoverImg }: ProjectProps) => {
+const ProjectCard = ({ img, link, hoverImg }: ProjectProps) => {
   const { isHovered, handlers } = useIsHovered();
   return (
     <div {...handlers} className="__card p-[1px] relative group">
@@ -63,4 +63,4 @@ const Project = ({ img, link, hoverImg }: ProjectProps) => {
   );
 };
 
-export default Project;
+export default ProjectCard;
