@@ -20,7 +20,7 @@ const cards = {
 		<TextCard
 			button={{ text: "Book Now", url: "/services" }}
 			title="Creative Strategy Marketing"
-			description="What we are known for - Our Signature 90 minute creative consultation."
+			description="Elevate your ideas with our specialized 90-minute creative consultations."
 		/>
 	),
 	b:<FMGCard />,
@@ -39,8 +39,8 @@ const cards = {
 				alt: "tShirt",
 			}}
 			link={{
-				text: "Get Started",
-				url: "/get-a-quote",
+				text: "Services",
+				url: "/creative-services",
 			}}
 		/>
 	),
@@ -61,16 +61,16 @@ const cards = {
 				alt: "hoodie",
 			}}
 			link={{
-				text: "Screenprinting",
-				url: "/t-shirts",
+				text: "Printing",
+				url: "/printing",
 			}}
 		/>
 	),
 	g: (
 		<TextCard
-			button={{ text: "Get Started", url: "/get-a-quote" }}
+			button={{ text: "Event Space", url: "/event-space" }}
 			title="Event Space"
-			description=""
+			description="Our space elevates your event, from concept to reality."
 		/>
 	),
 	h: <InstagramCard />,

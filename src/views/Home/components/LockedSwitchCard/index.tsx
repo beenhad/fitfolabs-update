@@ -4,7 +4,7 @@ import LockedSwitchIcon from "@/components/Icons/SwitchLockIcon";
 const StoreCard = () => {
   return (
     <div className="__card flex flex-col relative justify-center items-center p-[14px] gap-1 text-center">
-      <h2 className="__title_lg">Store</h2>
+      <h2 className="__title_lg">Webstore</h2>
       <p className="__text_sm"></p>
 
       <a
