@@ -10,6 +10,7 @@ import InstagramCard from "../InstagramCard";
 import StoreCard from "../LockedSwitchCard";
 import ProjectCard from "../ProjectCard";
 import TextCard from "../TextCard";
+import Image from "next/image";
 
 const MapCard = dynamic(() => import("../MapCard"), { ssr: false });
 
@@ -75,24 +76,18 @@ const cards = {
 	),
 	h: <InstagramCard />,
 	i: (
-		<ProjectCard
-			img={{
-				src: "/img/hats.png",
-				width: 2500,
-				height: 1299,
-				alt: "hats",
-			}}
-			hoverImg={{
-				src: "/img/hats-reveal.png",
-				width: 2500,
-				height: 1299,
-				alt: "hats-reveal",
-			}}
-			link={{
-				text: "Accessories",
-				url: "accessories",
-			}}
-		/>
+		<div className="__card p-[1px] relative group">
+		<div className="rounded-[30.5px] h-full overflow-hidden relative">
+		  <Image
+		  	src= "/img/hats-reveal.png"
+			width={2500}
+			height={1299}
+			alt="hats-reveal"
+			className="absolute inset-0 h-full w-full"
+		  />
+		  </div>
+		</div>
+		
 	),
 	j: (
 		<TextCard
