@@ -45,7 +45,7 @@ const PageSectionCard = ({ img, link, hoverImg }: ProjectProps) => {
       >
         <Link
           href={link.url}
-          className="flex items-center w-full overflow-hidden __btn"
+          className="flex items-center w-full overflow-hidden __btn no-drag"
         >
           <motion.p
             animate={{ opacity: isHovered ? 1 : 0, x: isHovered ? 0 : -15 }}

@@ -178,6 +178,8 @@ const ProjectGridLayout = () => {
 				isBounded
 				rowHeight={rowHeight}
 				margin={[16, 16]}
+				draggableCancel=".no-drag"
+			
 			>
 				{["a", "b", "c", "d", "e", "f", "g", "h", "i"].map((item) => (
 					<div key={item} className="__card overflow-hidden p-[1px]">
