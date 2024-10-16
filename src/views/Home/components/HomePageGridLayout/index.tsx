@@ -123,6 +123,7 @@ const HomePageGridLayout = () => {
 				rowHeight={rowHeight}
 				margin={[16, 16]}
 				isDraggable={isDraggable}
+				draggableCancel=".no-drag"
 			>
 				{["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"].map((item) => (
 					<div
