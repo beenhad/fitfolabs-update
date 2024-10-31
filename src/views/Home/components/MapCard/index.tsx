@@ -87,7 +87,7 @@ const MapCard = () => {
         <button
           className={cx(
             "__btn_rounded aspect-square shrink-0",
-            zoom === minZoom && "opacity-0 scale-50 delay-[1100ms]"
+            zoom === minZoom && "opacity-0 scale-50 delay-[1100ms] no-drag"
           )}
           disabled={zoom === minZoom}
           onClick={() => setZoom(zoom - zoomValue)}
@@ -97,7 +97,7 @@ const MapCard = () => {
         <button
           className={cx(
             "__btn_rounded aspect-square shrink-0",
-            zoom === maxZoom && "opacity-0 scale-50 delay-[1100ms]"
+            zoom === maxZoom && "opacity-0 scale-50 delay-[1100ms] no-drag"
           )}
           disabled={zoom === maxZoom}
           onClick={() => setZoom(zoom + zoomValue)}

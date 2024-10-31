@@ -109,7 +109,7 @@ const HomePageGridLayout = () => {
 	const isDraggable = useIsLayoutDraggable();
 
 	return (
-		<div style={{ maxWidth: 1201 }} className="mx-auto">
+		<div style={{ maxWidth: 1201, position: "relative" }} className="mx-auto">
 			<ResponsiveGridLayout
 				ref={ff}
 				className={cx(
