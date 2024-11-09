@@ -19,8 +19,8 @@ const ResponsiveGridLayout = WidthProvider(Responsive);
 const cards = {
 	a: (
 		<TextCard
-			button={{ text: "Book Now", url: "/services" }}
-			title="Creative Strategy Marketing"
+			button={{ text: "Book Now", url: "https://cal.com/fitfo/15min" }}
+			title="Creative Strategy Meeting"
 			description="Elevate your ideas with our specialized 90-minute creative consultations."
 		/>
 	),

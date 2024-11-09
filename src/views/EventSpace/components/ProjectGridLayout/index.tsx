@@ -14,7 +14,7 @@ const cards = {
 	a: (
 		<div className="rounded-[30.5px] h-full overflow-hidden relative">
 			<Image
-				src="/img/hats.png"
+				src="/img/e-w.png"
 				className="group-hover:opacity-0 absolute inset-0 h-full w-full object-cover"
 				alt="hats"
 				width={2500}
@@ -25,7 +25,7 @@ const cards = {
 	b: (
 		<div className="rounded-[30.5px] h-full overflow-hidden relative">
 			<Image
-				src="/img/hats.png"
+				src="/img/e-s-2.png"
 				className="group-hover:opacity-0 absolute inset-0 h-full w-full object-cover"
 				alt="hats"
 				width={2500}
@@ -36,7 +36,7 @@ const cards = {
 	c: (
 		<div className="rounded-[30.5px] h-full overflow-hidden relative">
 			<Image
-				src="/img/hats.png"
+				src="/img/e-s-2.png"
 				className="group-hover:opacity-0 absolute inset-0 h-full w-full object-cover"
 				alt="hats"
 				width={2500}
@@ -47,7 +47,7 @@ const cards = {
 	d: (
 		<div className="rounded-[30.5px] h-full overflow-hidden relative">
 			<Image
-				src="/img/hats.png"
+				src="/img/e-s-3.png"
 				className="group-hover:opacity-0 absolute inset-0 h-full w-full object-cover"
 				alt="hats"
 				width={2500}
@@ -58,13 +58,13 @@ const cards = {
 	e: (
 		<PageSectionCard
 		img={{
-			src: "/img/t-shirts.png",
+			src: "/img/e-s-4.png",
 			width: 1215,
 			height: 2500,
 			alt: "hoodie",
 		}}
 		hoverImg={{
-			src: "/img/t-shirts-reveal.png",
+			src: "/img/cs-2.png",
 			width: 1215,
 			height: 2500,
 			alt: "hoodie",
@@ -77,7 +77,7 @@ const cards = {
 	f: (
 		<div className="rounded-[30.5px] h-full overflow-hidden relative">
 			<Image
-				src="/img/hats.png"
+				src="/img/e-t-1.png"
 				className="group-hover:opacity-0 absolute inset-0 h-full w-full object-cover"
 				alt="hats"
 				width={2500}
@@ -88,7 +88,7 @@ const cards = {
 	g: (
 		<div className="rounded-[30.5px] h-full overflow-hidden relative">
 			<Image
-				src="/img/hats.png"
+				src="/img/e-t-2.png"
 				className="group-hover:opacity-0 absolute inset-0 h-full w-full object-cover"
 				alt="hats"
 				width={2500}
@@ -99,7 +99,7 @@ const cards = {
 	h: (
 		<div className="rounded-[30.5px] h-full overflow-hidden relative">
 			<Image
-				src="/img/hats.png"
+				src="/img/e-s-5.png"
 				className="group-hover:opacity-0 absolute inset-0 h-full w-full object-cover"
 				alt="hats"
 				width={2500}
@@ -110,7 +110,7 @@ const cards = {
 	i: (
 		<div className="rounded-[30.5px] h-full overflow-hidden relative">
 			<Image
-				src="/img/hats.png"
+				src="/img/e-s-6.png"
 				className="group-hover:opacity-0 absolute inset-0 h-full w-full object-cover"
 				alt="hats"
 				width={2500}
