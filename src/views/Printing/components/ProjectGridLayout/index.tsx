@@ -58,13 +58,13 @@ const cards = {
 	e: (
 		<PageSectionCard
 		img={{
-			src: "/img/p-s-4.png",
+			src: "/img/cs-s-4.png",
 			width: 1215,
 			height: 2500,
 			alt: "hoodie",
 		}}
 		hoverImg={{
-			src: "/img/cs-2.png",
+			src: "/img/blank.png",
 			width: 1215,
 			height: 2500,
 			alt: "hoodie",
@@ -110,7 +110,7 @@ const cards = {
 	i: (
 		<div className="rounded-[30.5px] h-full overflow-hidden relative">
 			<Image
-				src="/img/p-s-5.png"
+				src="/img/p-s-6.png"
 				className="group-hover:opacity-0 absolute inset-0 h-full w-full object-cover"
 				alt="hats"
 				width={2500}

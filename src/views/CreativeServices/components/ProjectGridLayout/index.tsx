@@ -64,7 +64,7 @@ const cards = {
 			alt: "hoodie",
 		}}
 		hoverImg={{
-			src: "/img/cs-2.png",
+			src: "/img/blank.png",
 			width: 1215,
 			height: 2500,
 			alt: "hoodie",
@@ -110,7 +110,7 @@ const cards = {
 	i: (
 		<div className="rounded-[30.5px] h-full overflow-hidden relative">
 			<Image
-				src="/img/cs-s-5.png"
+				src="/img/cs-s-6.png"
 				className="group-hover:opacity-0 absolute inset-0 h-full w-full object-cover"
 				alt="hats"
 				width={2500}
